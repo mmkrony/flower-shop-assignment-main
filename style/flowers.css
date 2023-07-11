@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+
+.btn-primary {
+    border-radius: 5px;
+    background: rgba(229, 84, 115, 1);
+    border: 0;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 15px 35px;}
+
+    /* header  styles */
+
+
+    .section-title {
+        color: #181818;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 700;
+        
+    }
+
+    .section-description {
+        color: #757575;
+        text-align: center;
+        font-size: 18px;
+    }
+    
+
+.header {
+    background-color:rgba(229, 84, 115, 0.1)
+
+}
+
+.banner {
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-content {
+    max-width: 500px;
+}
+
+.banner .flower-pic {
+    width: 400px;
+}
+
+.banner-greeting {
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+}
+
+.banner-title {
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+/* main section styles */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+main section {
+    margin-top: 130px;
+}
+
+
+/* featured related styles */
+
+.feature-container {
+    display: flex;
+    gap: 24px;
+}
+
+.feature {
+    padding: 30px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+
+/* support section styles */
+
+.support-container {
+    display: flex;
+    gap: 24px;
+}
+.support {
+    padding: 130px;
+    border-radius: 10px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 130px 0;
+}
+
+.support-info-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.support-info {
+    text-align: center;
+}
+
+/* hot deal style */
+
+.hot-deal {
+    background-color:rgba(229, 84, 115, 0.05)
+
+}
+
+
+.hot-deal-banner {
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hot-deal-banner-content {
+    max-width: 500px;
+}
+
+.hot-deal-banner .flower-pic {
+    width: 400px;
+}
+
+.hot-deal-banner-greeting {
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+}
+
+.hot-deal-banner-title {
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+/* Instagram style */
+
+#instagram-description {
+    padding: 30px 150px;
+}
+
+.instagram-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.instagram {
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.instagram-description {
+    color: #757575;
+}
+
+/* latest-deal style */
+
+.latest-deal-image {
+    background-image: url("../images/latest-deal.png");
+    background-color: #cccccc;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .latest-deal-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(15, 13, 13);
+  }
+
+
+  form {
+    border: 3px solid #f1f1f1;
+    font-family: Arial;
+  }
+  
+  .container {
+    padding: 20px;
+    background-color: #f1f1f1;
+    display: flex;
+
+  }
+  
+  input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 16px;
+    margin: 8px 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  input[type=checkbox] {
+    margin-top: 16px;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    border: none;
+  }
+  
+  input[type=submit]:hover {
+    opacity: 0.8;
+  }
+
+
+/* footer style */
+
+  .footer-container {
+    background-color:rgba(17, 16, 16, 1);
+    display: flex;
+    justify-content: center;
+    height: 400px;
+
+}
+
+.footer {
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-content {
+    max-width: 500px;
+    text-align: center;
+}
+
+.footer .flower-pic {
+    width: 400px;
+}
+
+
+.footer-title {
+    font-size: 60px;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    color: #FFF;
+}
+
+.footer-description{
+    color: #FFF;
+    text-align: center;
+}
+
+.text-primary {
+    color: rgba(229, 84, 115, 1);
+}
